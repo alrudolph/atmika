@@ -7,5 +7,5 @@ import Page from "../components/global/page";
 import Colors from "../theme/colors";
 
 export default function Home() {
-  return <Page></Page>;
+  return <Page>test</Page>;
 }
