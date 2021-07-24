@@ -6,6 +6,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
+    "deploy": "gh-pages -d public -r",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "gatsby-plugin-sharp": "^3.10.2",
     "gatsby-plugin-typescript": "^3.10.0",
     "gatsby-source-filesystem": "^3.10.0",
+    "gh-pages": "^3.2.3",
     "puppeteer": "^10.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
